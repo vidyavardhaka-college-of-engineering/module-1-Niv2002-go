@@ -1,4 +1,4 @@
-//INPUT: 10 2
+25//INPUT: 10 2
 //OUTPUT: Arithmetic expression evaluation of 10 and 2 is = 20
 
 #include <stdio.h>
