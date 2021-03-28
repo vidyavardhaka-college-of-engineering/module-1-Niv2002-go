@@ -11,7 +11,7 @@ int main()       // correct the code
     scanf("%d",&number);
 
     // displays output
-    printf("You entered: %d",number);// Correct the code
+    printf("You entered: %d\n",number);// Correct the code
     
     return 0;
     }
