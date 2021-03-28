@@ -4,15 +4,15 @@
 #include <math.h>
 
 int main() {
-   float num, Root;
+   double number, sqrtRoot;
 
    printf("Enter a number: ");
-   scanf("%f", &num);
+   scanf("%lf", &number);
 
    // computing the square root
-   Root = sqrt(num);
+   sqrtRoot = sqrt(number);
 
-   printf("Square root of %.2f =  %.2f", num, Root);
+   printf("Square root of %.2lf =  %.2lf", number, sqrtRoot);
 
    return 0;
 }
