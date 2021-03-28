@@ -1,18 +1,18 @@
 //INPUT: 12
 //OUTPUT: Square root of 12.00 = 3.46
-#include <math.h>
 #include <stdio.h>
+#include <math.h>
 
 int main() {
-   double number, squareRoot;
+   float num, Root;
 
    printf("Enter a number: ");
-   scanf("%lf", &number);
+   scanf("%f", &num);
 
    // computing the square root
-   squareRoot = sqrt(number);
+   Root = sqrt(num);
 
-   printf("Square root of %.2lf =  %.2lf", number, squareRoot);
+   printf("Square root of %.2f =  %.2f", num, Root);
 
    return 0;
 }
